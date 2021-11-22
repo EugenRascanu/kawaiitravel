@@ -113,9 +113,9 @@ section {
 }
 
 .row {
-    display: flex;
+    display: inline;
     align-items: center;
-    width: 100%;
+    width: 50%;
     justify-content: space-between;
     
 }
@@ -148,7 +148,7 @@ p {
 .explore {
     width: 100%;
     height: 100vh;
-    background-image: url('../images/img3.png');
+    background-image: url('../images/cherryboat.jpeg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat; 
@@ -175,7 +175,7 @@ p {
     color: #fff
 }
 .content-col {
-width:40%;
+width: 40%;
 
 }
 
@@ -268,7 +268,7 @@ li:hover {
 
 /* Media Q's */
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1920px) and (min-width: 360px) {
     .navbar {
         padding: 0;
     }
@@ -311,7 +311,7 @@ li:hover {
     align-items: center;
 }
 .image-gallery img {
-    width: 90%;
+    width: 120%;
 }
 .footer {
     padding: 10px;

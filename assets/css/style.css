@@ -162,19 +162,68 @@ p {
 .explore-content p {
     color: #fff
 }
-.tours .row .col {
-    width: 50%;
+.content-col {
+width:40%;
+
+}
+
+.image-col {
+    width: 60%;
 }
 
 .tours .image-gallery {
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
 }
 
 .image-gallery img { 
-width: 250px;
+max-width: 300px;
 margin: 10px;
 }
+
+.content-col h1 {
+font-size: 7vmin;
+color:rgb(83, 175, 106);
+}
+
+.content-col .line {
+    align-items:  center;
+}
+
+.content-col p {
+    padding: 0;
+    margin: 30px auto;
+}
+
+/* footer */
+
+footer {
+    width: 100%;
+border-bottom: 10px solid black;
+border-top: 10px solid black;
+height: 100px;
+}
+
+.social-networks{
+    text-align: center;
+    
+
+}
+
+.social-networks li{
+    display: inline;
+}
+
+.social-networks i{
+    font-size: 200%;
+    margin: 1%;
+    padding: 5%;
+    color: #e20a0a;
+}
+
+
 
 /* Mobile Screens */
 

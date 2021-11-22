@@ -100,10 +100,10 @@ header {
 .nav-links {
     flex-direction:  column;
     width:  100%;
-    height:  100vh;
+    height:  60vh;
     justify-content: center;
-    background: blueviolet;
-    margin-top: -900px;
+    
+  
 }
 
 .nav-links li {

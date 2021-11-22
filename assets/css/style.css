@@ -212,6 +212,9 @@ footer {
 border-bottom: 10px solid black;
 border-top: 10px solid black;
 height: 100px;
+padding: 20px 80px;
+margin: 0;
+background:rgb(83, 175, 106)
 }
 
 footer h2 {
@@ -236,8 +239,29 @@ footer h2 {
 }
 
 
+/* Animations */
 
-/* Mobile Screens */
+img {
+    transition: transmorm .3s ease;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+.ctn:hover {
+    background: whitesmoke;
+    color:rgb(228, 20, 20);
+    box-shadow: 2px 2px 5px black;
+}
+
+li:hover {
+    color:rgb(228, 20, 20);
+    cursor: pointer;
+}
+
+
+/* Media Q's */
 
 @media screen and (max-width: 1200px) {
     .navbar {
@@ -260,51 +284,32 @@ footer h2 {
 .nav-links li {
     margin: 30px auto;
 }
-
-@media screen and (max-width: 769px) {
-    .navbar {
-        padding: 0;
-    }
-.logo {
-    position: absolute;
-    top: 30px;
-    left: 30px;
+.row {
+    flex-direction: column;
 }
-.nav-links {
-    flex-direction:  column;
-    width:  100%;
-    height:  60vh;
+
+.row .col {
+    margin: 20px auto;
+}
+
+.col img {
+    max-width: 90%;
+}
+.explore-content {
+    width: 100%;
+}
+.tours .col {
+    width: 100%;
+}
+.image-gallery {
     justify-content: center;
-    
-  
+    align-items: center;
+}
+.image-gallery img {
+    width: 90%;
+}
+.footer {
+    padding: 10px;
 }
 
-.nav-links li {
-    margin: 30px auto;
-}
-
-}
-
-@media screen and (max-width: 480px) {
-    .navbar {
-        padding: 0;
-    }
-.logo {
-    position: absolute;
-    top: 30px;
-    left: 30px;
-}
-.nav-links {
-    flex-direction:  column;
-    width:  100%;
-    height:  60vh;
-    justify-content: center;
-    
-  
-}
-
-.nav-links li {
-    margin: 30px auto;
-}
-}
 }

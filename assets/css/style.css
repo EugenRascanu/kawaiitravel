@@ -15,8 +15,11 @@ body{
     
 }
 
-#logo {
-   align-items: left;
+.logo {
+   text-align: left ;
+   background-color: rgb(227, 109, 238);
+   font-size: larger;
+   color: blue
 }
 
 a {
@@ -109,7 +112,7 @@ section {
 .title {
     text-align: center;
     font-size: 4vmin;
-    color: darkblue;
+    color: rgb(139, 0, 30);
 }
 
 .row {
@@ -172,7 +175,8 @@ p {
 }
 
 .explore-content p {
-    color: #fff
+    color: rgb(113, 106, 182);
+    background-color: rgb(231, 163, 209);
 }
 .content-col {
 width: 40%;
@@ -251,8 +255,9 @@ img {
 }
 
 img:hover {
-    transform: scale(1.1);
+    transform: scale(1.01);
 }
+
 
 .ctn:hover {
     background: whitesmoke;
@@ -268,7 +273,7 @@ li:hover {
 
 /* Media Q's */
 
-@media screen and (max-width: 1920px) and (min-width: 360px) {
+@media screen and (max-width: 1200px) and (min-width: 360px) {
     .navbar {
         padding: 0;
     }
@@ -311,7 +316,7 @@ li:hover {
     align-items: center;
 }
 .image-gallery img {
-    width: 120%;
+    width: 60%;
 }
 .footer {
     padding: 10px;

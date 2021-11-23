@@ -106,7 +106,7 @@ header {
 }
 
 .audio {
-    align-items: left;
+
     position: fixed;
     padding: 30px 0 0;
     max-width: 35%;
@@ -221,7 +221,7 @@ margin: 10px;
 
 .content-col h2 {
 font-size: 7vmin;
-color:(231, 88, 21);
+color:rgba(231, 88, 21);
 }
 
 .content-col .line {
@@ -302,13 +302,12 @@ li:hover {
     border-style: solid;
     font-weight: bolder;
     color: black;
-    padding: 10px auto;
+    padding: 10px;
 }
 
 /* SIGNUP FORM */
 
 .form-section {
-    clear: center;
     background-size: cover;
     background-position: center;
     height: 900px;

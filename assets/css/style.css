@@ -466,7 +466,7 @@ li:hover {
 .nav-links {
     float: left;
     clear: left;
-    font-size: small;
+    font-size: smaller;
     line-height: 0;
 }
 .logo {

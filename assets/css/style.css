@@ -53,8 +53,9 @@ ul {
 .nav-links {
     display: flex;
     align-items: center;
-    color:rgb(251, 255, 5);
+    color: tomato;
     font-weight: bold;
+    border-style: solid;
 }
 
 .nav-links li {

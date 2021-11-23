@@ -32,7 +32,7 @@ ul {
 }
 
 .active {
-    color: rgb(132, 64, 196);
+    color: crimson;
     text-decoration: underline;
     font-weight: bold;
 }
@@ -55,7 +55,7 @@ ul {
     align-items: center;
     color: tomato;
     font-weight: bold;
-    border-style: solid;
+    
 }
 
 .nav-links li {
@@ -65,7 +65,7 @@ ul {
 header {
     width: 100vw;
     height: 100vh;
-    background-image: url('../images/mainjapan.jpeg');
+    background-image: url('../images/mainjapan.webp');
     background-position: bottom;
     background-size: cover;
     display: flex;
@@ -102,7 +102,8 @@ header {
 .audio {
     align-items: left;
     position: absolute;
-    padding-top: 40px;
+    padding: 30px 0 0;
+    width: 15%;
     
 }
 
@@ -116,7 +117,7 @@ section {
 .title {
     text-align: center;
     font-size: 4vmin;
-    color: rgb(139, 0, 30);
+    color: rgb(42, 23, 129);
 }
 
 .row {
@@ -143,7 +144,7 @@ section {
 
 h2 {
     font-size: 3vmin;
-    color:rgb(231, 88, 21);
+    color:rgb(57, 28, 219);
     margin: 20px auto;
 }
 
@@ -183,7 +184,7 @@ p {
 }
 
 .explore-content p {
-    color: rgb(113, 106, 182);
+    color: rgb(3, 3, 3);
     background-color: rgb(231, 163, 209);
     border-style: solid;
     padding: 10px;
@@ -244,7 +245,7 @@ border-top: 10px solid black;
 height: 100px;
 padding: 20px 80px;
 margin: 0;
-background:rgb(83, 175, 106)
+
 }
 
 footer h2 {
@@ -307,8 +308,8 @@ li:hover {
 .signup-form {
     align-items: center;
     margin: 150px 10% 0 0;
-    color: rgb(12, 12, 12);
-    background-color: rgba(231, 149, 227, 0.6);
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
     max-width: 400px;
     position: relative;
     padding: 10px;
@@ -323,19 +324,19 @@ li:hover {
     }
     
     .text-input {
-        background: transparent;
-        color: #565dbe;
+        background: rgb(247, 187, 234);
+        color: #f03118;
         height: 25px;
         width: 100%;
         top: 5px;
         margin: 5px 0 20px 0;
-        border: 1px solid #0c0c0c;
+        border: 2px solid rgb(0, 0, 0);
         border-radius: 2px;
         
     }
     
     .text-input:hover {
-        border-color: #4b66df;
+        border-color: gold;
         
         
     }
@@ -347,16 +348,16 @@ li:hover {
     padding: 15px 32px 15px 32px;
     text-align: center;
     font-size: 100%;
-    background-color: #ffffff;
-    color: #ff0000;
+    background-color: rgb(247, 187, 234);
+    color:black;
     display: block;
     
 }
 
 .register-button:hover {
     
-    background-color: #79dd70;
-    color: #ffffff;
+    background-color: #38e65e;
+    color: #eb4848;
     
     
 }

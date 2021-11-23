@@ -274,6 +274,79 @@ li:hover {
     cursor: pointer;
 }
 
+.contact {
+    border-style: solid;
+    font-weight: bolder;
+    color: black;
+    padding: 10px auto;
+}
+
+/* SIGNUP FORM */
+
+.form-section {
+    clear: center;
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
+
+.signup-form {
+    align-items: center;
+    margin: 150px 10% 0 0;
+    color: rgb(12, 12, 12);
+    background-color: rgba(231, 149, 227, 0.6);
+    max-width: 400px;
+    position: relative;
+    padding: 10px;
+    left: 10%;
+    border-style: solid;
+}
+
+.signup-form > h2 {
+    
+    color: #0e0d0d;
+    margin-bottom: 20px;
+    }
+    
+    .text-input {
+        background: transparent;
+        color: #565dbe;
+        height: 25px;
+        width: 100%;
+        top: 5px;
+        margin: 5px 0 20px 0;
+        border: 1px solid #0c0c0c;
+        border-radius: 2px;
+        
+    }
+    
+    .text-input:hover {
+        border-color: #4b66df;
+        
+        
+    }
+    
+.register-button {
+    
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #ffffff;
+    color: #ff0000;
+    display: block;
+    
+}
+
+.register-button:hover {
+    
+    background-color: #79dd70;
+    color: #ffffff;
+    
+    
+}
+
 
 /* Media Q's */
 

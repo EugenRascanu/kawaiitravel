@@ -13,11 +13,11 @@
     <nav class="navbar">
         <h3 class="logo">KAWAII TRAVEL AGENCY <i class="fas fa-plane-departure"></i></h3>
         <ul class="nav-links">
-            <li class="active"><a href="#"></a>Home</li>
+            <li class="active"><a href="#home"></a>Home</li>
             <li><a href="#tours"></a>Tours</li>
             <li><a href="#explore"></a>Explore</li>
             <li><a href="#about"></a>About</li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
         
     </nav>
@@ -30,7 +30,6 @@
         </div>
     </header>
 
-
 <section class="events">
     <div class="title">
         <h2>Upcoming Tours <i class="fas fa-map-marked-alt"></i></h2>
@@ -40,7 +39,7 @@
         <div class="col">
             <img src="assets/images/fuji.jpeg" alt="Mount Fuji">
             <h2>MOUNT FUJI</h2>
-            <p>Mount Fuji is easily one of the most iconic sites in Japan, and not only a geographical point but a cultural symbol for the country. Although the unmistakable peak can be spotted from a variety of locations, each vantage point offers its own special view of the often snowy top. The mountain peak, which is the tallest in Japan is, in fact, a volcano which has not erupted in 1707. Both tourists and locals flock here to marvel at its distinguishing cone shape all year long, however in the winter months the snowy peak juxtaposes the metropolis city even more, but for those travellers looking to climb the mountain, the summer months make it more accessible.</p>
+            <p id="tours">Mount Fuji is easily one of the most iconic sites in Japan, and not only a geographical point but a cultural symbol for the country. Although the unmistakable peak can be spotted from a variety of locations, each vantage point offers its own special view of the often snowy top. The mountain peak, which is the tallest in Japan is, in fact, a volcano which has not erupted in 1707. Both tourists and locals flock here to marvel at its distinguishing cone shape all year long, however in the winter months the snowy peak juxtaposes the metropolis city even more, but for those travellers looking to climb the mountain, the summer months make it more accessible.</p>
         </div>
         <div class="col">
             <img src="assets/images/bamboo.jpeg" alt="Bamboo Forest">
@@ -79,9 +78,24 @@
 </section>
 
 <section class="contact">
-    <h2>If you have any questions or queries, please contact us at:</h2>
+    <h2><i class="fas fa-phone-square-alt"></i> For questions or queries, please contact us: <i class="fas fa-phone-square-alt"></i></h2>
     <p>Email: kawaii_travel@email.com</p>
-    <p>Phone: +318989089</p>
+    <p>Telephone: +318989089</p>
+</section>
+
+<section class="form-section">
+    <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
+  <h2>Signup for the latest news! <i class="fas fa-envelope-open-text"></i></h2>
+      <label for="fname">First Name</label>
+      <input id="fname" name="first_name" class="text-input" type="text" required>
+            
+        <label for="lname">Last Name</label>
+        <input id="lname" name="last_name" class="text-input" type="text" required>
+            
+      <label for="email">Email Address</label>
+      <input type="email" id="email" class="text-input" name="email_address" required>
+      <input class="register-button" type="submit" value="Register">
+</form>
 </section>
 
 

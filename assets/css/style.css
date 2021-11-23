@@ -448,9 +448,35 @@ li:hover {
     line-height: 10px;
     font-size: 12px;
 }
+.col p {
+    font-size: 12px;
+    text-align: center;
+}
 
+.contact p {
+    text-align: center;
+    font-size: 12px;
+}
+
+.header-content {
+    margin: -1px;
+    width: 55%;
+    height: 35%; 
+}
+
+.nav-links {
+    float: left;
+    clear: left;
+    font-size: small;
+    line-height: 0;
+}
+.logo {
+    width: 30%;
+    font-size: 10px;
+}
 
 }
+
 
 
 }

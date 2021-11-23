@@ -17,9 +17,10 @@ body{
 
 .logo {
    text-align: left ;
-   background-color: rgb(227, 109, 238);
+   background-color: whitesmoke;
    font-size: larger;
-   color: blue
+   color: crimson;
+   border-style: double;
 }
 
 a {
@@ -73,8 +74,10 @@ header {
 
 .header-content {
     margin-bottom: 150px;
-    color: rgb(251, 255, 5);
+    color:  rgb(231, 88, 21);
     text-align: center;
+    background-color: whitesmoke;
+    border-style: solid;
 }
 
 .header-content h3 {
@@ -93,13 +96,6 @@ header {
     font-size: 7vmin;
     margin-top: 50px;
     margin-bottom: 50px;
-}
-
-.ctn {
-    padding: 8px 15px;
-    background: rgb(83, 175, 106);
-    border-radius: 30px;
-    color: rgb(251, 255, 5);
 }
 
 /* Tours */
@@ -135,7 +131,7 @@ section {
 
 h2 {
     font-size: 3vmin;
-    color:rgb(83, 175, 106);
+    color:rgb(231, 88, 21);
     margin: 20px auto;
 }
 
@@ -201,7 +197,7 @@ margin: 10px;
 
 .content-col h2 {
 font-size: 7vmin;
-color:rgb(83, 175, 106);
+color:(231, 88, 21);
 }
 
 .content-col .line {
@@ -211,6 +207,18 @@ color:rgb(83, 175, 106);
 .content-col p {
     padding: 0;
     margin: 30px auto;
+}
+
+.contact {
+    text-align: center;
+    border-style:solid;
+    border-color: tomato;
+}
+
+.contact p {
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 /* footer */
@@ -259,11 +267,7 @@ img:hover {
 }
 
 
-.ctn:hover {
-    background: whitesmoke;
-    color:rgb(228, 20, 20);
-    box-shadow: 2px 2px 5px black;
-}
+
 
 li:hover {
     color:rgb(228, 20, 20);

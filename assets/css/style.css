@@ -125,6 +125,10 @@ section {
     align-items: center;
 }
 
+.col {
+    padding: 10px;
+}
+
 .events .row {
     margin-top:  50px;
 }
@@ -140,7 +144,7 @@ p {
 
 }
 
-.events .ctn {
+.events {
     margin-top: 30px;
 }
 
@@ -173,6 +177,8 @@ p {
 .explore-content p {
     color: rgb(113, 106, 182);
     background-color: rgb(231, 163, 209);
+    border-style: solid;
+    padding: 10px;
 }
 .content-col {
 width: 40%;

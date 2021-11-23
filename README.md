@@ -24,4 +24,51 @@
 
 * "Explore" section tells of a "must see" when you are in Japan. The user is greeted by a beautiful picture depicting a boat on a small river, surrounded on both sides by cherry trees. A small explanation of the picture is also featured, encased in a pink border.
 
-* "About Us" section details
+* "About Us" section gives details regarding the agency.
+* "Contact" section shares contact information: email and telephone.
+* "Sign Up" is a simple form that requires: first name, last name and email address, in order to receive latest news and deals regarding trips to Japan.
+Hovering over the fields will make the colors change.
+
+
+![Sign Up](/assets/images/signup.png)
+
+
+# Testing
+
+* I have tested the webpage on: Chrome, Firefox and Microsoft Edge.
+* I confirm that the project looks good, is responsive and functions on all devices.
+* I confirm that all the elements within the webpage are readable and easy to understand.
+* I confirm that the sign up form requires entries to work and the register button works.
+
+# Bugs
+
+* All the bugs have been worked out before deploying the project to GitHub.
+
+# Validator Testing
+
+* The project has been validated through W3 Validator - HTML and CSS (Jigsaw).
+  * No errors have been found.
+
+![HTML](/assets/images/html-val.png)
+![CSS](/assets/images/css-val.png)
+
+
+# Accessability
+* I confirm that the images, colors and fonts are easy to read and accessible.
+
+![Lighthouse](/assets/images/lighthouse.png)
+
+# Deployment
+* The project has been deployed to GitHub pages.
+  * In the GitHug repository, navigate to the Settings Tab
+  * From the source section drop-down menu, select Master Branch
+  * Once the Master Branch has been selected, the page provides the link to the complete website, which can be seen here: [KawaiiTravelAgency](https://eugenrascanu.github.io/kawaiitravel/) 
+
+  # Credits
+* Content
+  * Social Media Links were taken from CI [Love Running](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/e6d4cda2bc08458ba94d2092be9bad3a/) project.
+  * README template was taken from CI [Sample Project README. md](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSSE_PAGPPF+2021_Q2/courseware/66cf361c769a41d496f5001fae6f9be7/3b5cd5dc8313462aa5975a3c9b9a1a3c/)
+
+* Media
+  * Images were taken from [Pexels](https://pexels.com/)
+  * Audio was taken from [EpidemicSound](https://epidemicsound.com)

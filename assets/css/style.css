@@ -354,8 +354,9 @@ li:hover {
 		.nav-links {
 			clear: left;
 			float: left;
-			margin: 0 10px;
+			margin: 100px -133px;
 			line-height: 0px;
+            flex-direction: column;
 		}
 		.explore-content p {
 			clear: left;

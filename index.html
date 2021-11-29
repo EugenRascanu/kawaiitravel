@@ -1,134 +1,112 @@
 <!DOCTYPE html>
 <html lang="en-US">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Japan, rising sun, beauty, wonder">
-    <meta name="keywords" content="travel, Japan, cherry, blossom, fuji, beauty">
-    <title>KAWAII TRAVEL AGENCY</title>
-    <link rel="stylesheet preconnect" href="assets/css/style.css">
-    
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Japan, rising sun, beauty, wonder">
+	<meta name="keywords" content="travel, Japan, cherry, blossom, fuji, beauty">
+	<title>KAWAII TRAVEL AGENCY</title>
+	<link rel="stylesheet preconnect" href="assets/css/style.css">
 </head>
+
 <body>
-    <nav class="navbar">
-        <h1 class="logo">KAWAII TRAVEL AGENCY <i class="fas fa-plane-departure"></i></h1>
-      
-        <audio class="audio" controls autoplay>
-           <source src="assets/audio/samurai.mp3" type="audio/mp3">
-       </audio>
-       
-        <ul class="nav-links">
-            
-            <li><a href="#tours">Tours</a></li>
-            <li><a href="#explore">Explore</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-        
-    </nav>
-    <header>
-        <div class="header-content">
-            <h1>Explore Japan</h1>
-            <div class="line"></div>
-            <h2>Land of The Rising Sun</h2>
-         
-        </div>
-    </header>
+	<nav class="navbar">
+		<h1 class="logo">KAWAII TRAVEL AGENCY <i class="fas fa-plane-departure"></i></h1>
+		<audio class="audio" controls autoplay>
+			<source src="assets/audio/samurai.mp3" type="audio/mp3">
+		</audio>
+		<ul class="nav-links">
+			<li><a href="#tours">Tours</a>
+			</li>
+			<li><a href="#explore">Explore</a>
+			</li>
+			<li><a href="#about">About</a>
+			</li>
+			<li><a href="#contact">Contact</a>
+			</li>
+		</ul>
+	</nav>
+	<header>
+		<div class="header-content">
+			<h1>Explore Japan</h1>
+			<div class="line"></div>
+			<h2>Land of The Rising Sun</h2>
+		</div>
+	</header>
+	<section class="events">
+		<div class="title">
+			<h2 id="tours">Upcoming Tours <i class="fas fa-map-marked-alt"></i></h2>
+			<div class="line"></div>
+		</div>
+		<div class="row">
+			<div class="col">
+				<img src="assets/images/fuji.webp" alt="Mount Fuji">
+				<h2>MOUNT FUJI</h2>
+				<p>Mount Fuji is easily one of the most iconic sites in Japan, and not only a geographical point but a cultural symbol for the country. Although the unmistakable peak can be spotted from a variety of locations, each vantage point offers its own special view of the often snowy top. The mountain peak, which is the tallest in Japan is, in fact, a volcano which has not erupted in 1707. Both tourists and locals flock here to marvel at its distinguishing cone shape all year long, however in the winter months the snowy peak juxtaposes the metropolis city even more, but for those travellers looking to climb the mountain, the summer months make it more accessible.</p>
+			</div>
+			<div class="col">
+				<img src="assets/images/bamboo.webp" alt="Bamboo Forest">
+				<h2>ARASHIYAMA BAMBOO FOREST</h2>
+				<p>The famous Arashiyama Bamboo Forest, also sometimes called the Arashiyama Bamboo Grove, is located in northwestern Kyoto. Near the base of the “Storm Mountains” in the Arashiyama district of Kyoto, this spectacular bamboo grove is a true sight to see, and one of the most famous forests in Japan. Visitors describe their trip to the Arashiyama Bamboo Forest as stepping into another world.</p>
+			</div>
+		</div>
+	</section>
+	<section class="explore">
+		<div class="explore-content">
+			<h2 id="explore"><i class="far fa-eye"></i> MUST SEE <i class="far fa-eye"></i></h2>
+			<div class="line"></div>
+			<p>Seeing cherry blossoms (Sakura) is the top priority thing to do for travelers to Japan in spring since Japan is the best country to view cherry blossoms in the world. Japan’s most popular tourist city Tokyo has numbers of nice spots to view cherry blossoms in full bloom. One of recommended ways to view cherry blossoms is Japanese traditional cruises “Yakatabune (屋形船)”. You can enjoy viewing cherry blossoms on the cruising boat while having Japanese food and drinks.</p>
+		</div>
+	</section>
+	<section class="tours">
+		<div class="row">
+			<div class="col content-col">
+				<h2 id="about">About Us <i class="far fa-address-card"></i></h2>
+				<div class="line"></div>
+				<p>We created the travel agency to combine our passion for travel with our desire to assist leisure, business or group travelers enhance the value of their travel experiences. It is a business of details. We want to insure that all aspects of a trip are a good fit for our clients. To that end, we are resolute in totally understanding the goals, objectives and budgets of our clients so we can present them with multiple alternatives for fun, educational and relaxing travel.</p>
+			</div>
+			<div class="col image-col">
+				<div class="image-gallery">
+					<img src="./assets/images/archway.webp" alt="Forest Archway">
+					<img src="./assets/images/castle.webp" alt="Castle">
+					<img src="./assets/images/city.webp" alt="City at night">
+					<img src="./assets/images/houses.webp" alt="Houses in the forest">
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="contact">
+		<h2 id="contact"><i class="fas fa-phone-square-alt"></i> For dates, pricing and other queries please contact us at <i class="fas fa-phone-square-alt"></i></h2>
+		<p>Email: kawaii_travel@email.com</p>
+		<p>Telephone: +318989089</p>
+	</section>
+	<section class="form-section">
+		<form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
+			<h2>Sign up for our newsletter! <i class="fas fa-envelope-open-text"></i></h2>
+			<label for="fname">First Name</label>
+			<input id="fname" name="first_name" class="text-input" type="text" required>
+			<label for="lname">Last Name</label>
+			<input id="lname" name="last_name" class="text-input" type="text" required>
+			<label for="email">Email Address</label>
+			<input type="email" id="email" class="text-input" name="email_address" required>
+			<input class="register-button" type="submit" value="Register">
+		</form>
+	</section>
+	<footer>
+		<ul class="social-networks">
+			<li> <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook-square"></i></a>
+			</li>
+			<li> <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter-square"></i></a>
+			</li>
+			<li> <a href="https://youtube.com" target="_blank" rel="noopener" aria-label="Visit our YouTube page (opens in a new tab)"><i class="fab fa-youtube-square"></i></a>
+			</li>
+			<li> <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram-square"></i></a>
+			</li>
+		</ul>
+	</footer>
+	<!-- font awesome script -->
+	<script src="https://kit.fontawesome.com/3c2c26321d.js" crossorigin="anonymous"></script>"</body>
 
-<section class="events">
-    <div class="title">
-        <h2 id="tours">Upcoming Tours <i class="fas fa-map-marked-alt"></i></h2>
-        <div class="line"></div>
-    </div>
-    <div class="row">
-        <div class="col">
-            <img src="assets/images/fuji.webp" alt="Mount Fuji">
-            <h2>MOUNT FUJI</h2>
-            <p>Mount Fuji is easily one of the most iconic sites in Japan, and not only a geographical point but a cultural symbol for the country. Although the unmistakable peak can be spotted from a variety of locations, each vantage point offers its own special view of the often snowy top. The mountain peak, which is the tallest in Japan is, in fact, a volcano which has not erupted in 1707. Both tourists and locals flock here to marvel at its distinguishing cone shape all year long, however in the winter months the snowy peak juxtaposes the metropolis city even more, but for those travellers looking to climb the mountain, the summer months make it more accessible.</p>
-        </div>
-        <div class="col">
-            <img src="assets/images/bamboo.webp" alt="Bamboo Forest">
-            <h2>ARASHIYAMA BAMBOO FOREST</h2>
-            <p>The famous Arashiyama Bamboo Forest, also sometimes called the Arashiyama Bamboo Grove, is located in northwestern Kyoto. Near the base of the “Storm Mountains” in the Arashiyama district of Kyoto, this spectacular bamboo grove is a true sight to see, and one of the most famous forests in Japan. Visitors describe their trip to the Arashiyama Bamboo Forest as stepping into another world.</p>
-        </div>
-    </div>
-</section>
-
-
-<section class="explore">
-    <div class="explore-content">
-    <h2 id="explore"><i class="far fa-eye"></i> MUST SEE <i class="far fa-eye"></i></h2>
-    <div class="line"></div>
-    <p>Seeing cherry blossoms (Sakura) is the top priority thing to do for travelers to Japan in spring since Japan is the best country to view cherry blossoms in the world. Japan’s most popular tourist city Tokyo has numbers of nice spots to view cherry blossoms in full bloom. One of recommended ways to view cherry blossoms is Japanese traditional cruises “Yakatabune (屋形船)”. You can enjoy viewing cherry blossoms on the cruising boat while having Japanese food and drinks.</p>
-</div>
-</section>
-
-
-<section class="tours">
-    <div class="row">
-        <div class="col content-col">
-            <h2 id="about">About Us <i class="far fa-address-card"></i></h2>
-            <div class="line"></div>
-            <p>We created the travel agency to combine our passion for travel with our desire to assist leisure, business or group travelers enhance the value of their travel experiences. It is a business of details. We want to insure that all aspects of a trip are a good fit for our clients. To that end, we are resolute in totally understanding the goals, objectives and budgets of our clients so we can present them with multiple alternatives for fun, educational and relaxing travel.</p>
-        </div>
-        <div class="col image-col">
-            <div class="image-gallery">
-                <img src="./assets/images/archway.webp" alt="Forest Archway">
-                <img src="./assets/images/castle.webp" alt="Castle">
-                <img src="./assets/images/city.webp" alt="City at night">
-                <img src="./assets/images/houses.webp" alt="Houses in the forest">
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="contact">
-    <h2 id="contact"><i class="fas fa-phone-square-alt"></i> For dates, pricing and other queries please contact us at <i class="fas fa-phone-square-alt"></i></h2>
-    <p>Email: kawaii_travel@email.com</p>
-    <p>Telephone: +318989089</p>
-</section>
-
-<section class="form-section">
-    <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
-  <h2>Sign up for our newsletter! <i class="fas fa-envelope-open-text"></i></h2>
-      <label for="fname">First Name</label>
-      <input id="fname" name="first_name" class="text-input" type="text" required>
-            
-        <label for="lname">Last Name</label>
-        <input id="lname" name="last_name" class="text-input" type="text" required>
-            
-      <label for="email">Email Address</label>
-      <input type="email" id="email" class="text-input" name="email_address" required>
-      <input class="register-button" type="submit" value="Register">
-</form>
-</section>
-
-
-    <footer>
-        
-        <ul class="social-networks">
-            <li>
-                <a href="https://facebook.com" target= "_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook-square"></i></a>
-            </li>
-        
-            <li>
-                <a href="https://twitter.com" target= "_blank" rel="noopener" aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter-square"></i></a>
-            </li>
-        
-            <li>
-                <a href="https://youtube.com" target= "_blank" rel="noopener" aria-label="Visit our YouTube page (opens in a new tab)"><i class="fab fa-youtube-square"></i></a>
-            </li>
-        
-            <li>
-                <a href="https://instagram.com" target= "_blank" rel="noopener" aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram-square"></i></a>
-            </li>
-        
-        </ul></footer>
-
-<!-- font awesome script -->
-<script src="https://kit.fontawesome.com/3c2c26321d.js" crossorigin="anonymous"></script>"
-
-
-</body>
 </html>

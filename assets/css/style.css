@@ -160,7 +160,6 @@ p {
 	flex-direction: column;
 }
 .explore-content h2 {
-	font-size: 3rem;
 	text-align: center;
 	justify-content: center;
 }
@@ -309,9 +308,9 @@ li:hover {
 		left: 30px;
 	}
 	.nav-links {
-		flex-direction: column;
+		flex-direction: row;
 		width: 100%;
-		height: 60vh;
+		height: 50vh;
 		justify-content: center;
 	}
 	.nav-links li {
@@ -355,7 +354,7 @@ li:hover {
 		.nav-links {
 			clear: left;
 			float: left;
-			margin: 0 -130px;
+			margin: 0 10px;
 			line-height: 0px;
 		}
 		.explore-content p {
@@ -363,7 +362,7 @@ li:hover {
 			float: left;
 			margin-left: 20px;
 			margin-bottom: 20px;
-			line-height: 10px;
+			line-height: 12px;
 			font-size: 12px;
 		}
 		.col p {

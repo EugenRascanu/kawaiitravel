@@ -30,14 +30,17 @@ body{
 
 a {
     text-decoration: none;
+    color: red;
+
 }
 
 ul {
     list-style: none;
+    color: white;
 }
 
 .active {
-    color: crimson;
+    color: white;
     text-decoration: underline;
     font-weight: bold;
 }
@@ -52,20 +55,21 @@ ul {
     width: 100%;
     justify-content: space-between;
     padding: 20px;
-    color: rgb(83, 175, 106);
+    color: white;
 }
 
 .nav-links {
     float: right;
     display: flex;
     align-items: center;
-    color: tomato;
+    color: white;
     font-weight: bold;
     
 }
 
 .nav-links li {
     margin: 0 30px;
+    color: white;
 }
 
 header {
@@ -85,10 +89,12 @@ header {
     text-align: center;
     background-color: whitesmoke;
     border-style: solid;
+    padding-left: 35px;
+    padding-right: 35px;
 }
 
-.header-content h3 {
-    font-size: 4vmin;
+.header-content h2 {
+    font-size: 2rem;
 }
 
 .line {
@@ -100,7 +106,7 @@ header {
 }
 
 .header-content h1 {
-    font-size: 7vmin;
+    font-size: 3rem;
     margin-top: 50px;
     margin-bottom: 50px;
 }
@@ -116,7 +122,7 @@ header {
     
 }
 
-/* Tours */
+/* tours */
 
 section {
     width: 80%;
@@ -153,13 +159,15 @@ section {
 }
 
 h2 {
-    font-size: 3vmin;
+    font-size: 1.5rem;
     color:rgb(57, 28, 219);
     margin: 20px auto;
+    
 }
 
 p {
     padding: 0px 40px;
+    line-height: 40px;
 
 }
 
@@ -171,10 +179,11 @@ p {
     width: 100%;
     height: 100vh;
     background-image: url('../images/cherryboat.webp');
-    background-position: center;
+    background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat; 
-    align-items: center;
+    text-align: center;
+    max-height: 700px;
 }
 
 .explore-content {
@@ -185,7 +194,8 @@ p {
     flex-direction: column;
 }
 .explore-content h2{
-    font-size: 7vmin;
+    font-size: 3rem;
+    text-align: center;
     
 }
 
@@ -198,6 +208,7 @@ p {
     background-color: rgb(231, 163, 209);
     border-style: solid;
     padding: 10px;
+    text-align: center;
 }
 .content-col {
 width: 40%;
@@ -284,7 +295,7 @@ footer h2 {
 /* Animations */
 
 img {
-    transition: transmorm .3s ease;
+    transition: transform .3s ease;
 }
 
 img:hover {
@@ -306,7 +317,7 @@ li:hover {
     padding: 10px;
 }
 
-/* SIGNUP FORM */
+/* signup form */
 
 .form-section {
     background-size: cover;

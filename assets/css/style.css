@@ -12,6 +12,7 @@ body{
     font-family: 'Asap', sans-serif;
     color: #3a3a3a;
     font-size: 1.1rem;
+    max-width: 2500px;
 }
     body, html {
         overflow-x: hidden;
@@ -21,16 +22,18 @@ body{
 
 
 .logo {
-   float: left ;
+   float:left;
    background-color: whitesmoke;
-   font-size: larger;
+   font-size: 2.5rem;
    color: crimson;
    border-style: double;
 }
 
+
 a {
     text-decoration: none;
-    color: red;
+    color: crimson;
+    background-color: white;
 
 }
 
@@ -81,16 +84,18 @@ header {
     display: flex;
     align-items: flex-end;
     justify-content: center;
+    max-height: 900px;
 }
 
 .header-content {
-    margin-bottom: 150px;
+    margin-bottom: 200px;
     color:  rgb(231, 88, 21);
     text-align: center;
     background-color: whitesmoke;
     border-style: solid;
     padding-left: 35px;
     padding-right: 35px;
+    max-height: 900px;
 }
 
 .header-content h2 {
@@ -114,7 +119,7 @@ header {
 .audio {
 
     position: fixed;
-    padding: 30px 0 0;
+    padding: 42px 0 0;
     max-width: 35%;
     max-height: 35%;
     margin: auto;
@@ -153,6 +158,10 @@ section {
     padding: 10px;
 }
 
+.col p {
+    text-align: justify;
+}
+
 
 .events .row {
     margin-top:  50px;
@@ -166,7 +175,7 @@ h2 {
 }
 
 p {
-    padding: 0px 40px;
+    padding: 0px;
     line-height: 40px;
 
 }
@@ -183,7 +192,7 @@ p {
     background-size: cover;
     background-repeat: no-repeat; 
     text-align: center;
-    max-height: 700px;
+    max-height: 900px;
 }
 
 .explore-content {
@@ -260,18 +269,11 @@ color:rgba(231, 88, 21);
 /* footer */
 
 footer {
-    width: 100%;
-border-bottom: 10px solid black;
-border-top: 10px solid black;
+ 
 height: 100px;
 padding: 20px 80px;
 margin: 0;
 
-}
-
-footer h2 {
-    text-align: center;
-    color:rgb(228, 20, 20);
 }
 
 .social-networks{
@@ -344,7 +346,7 @@ li:hover {
     }
     
     .text-input {
-        background: rgb(247, 187, 234);
+        padding: 20px;
         color: #f03118;
         height: 25px;
         width: 100%;
@@ -356,7 +358,7 @@ li:hover {
     }
     
     .text-input:hover {
-        border-color: gold;
+        border-color: rgb(0, 17, 255);
         
         
     }
@@ -376,7 +378,7 @@ li:hover {
 
 .register-button:hover {
     
-    background-color: #38e65e;
+    background-color: #0e12ee;
     color: #eb4848;
     
     
@@ -444,12 +446,11 @@ li:hover {
     }
 }
 @media screen and (max-width: 320px) {
-    .nav-link {
+    .nav-links {
         clear: left;
         float: left;
-        margin-left: 20px;
-        margin-bottom: 10px;
-        line-height: 15px;
+        margin: 0 -130px;
+        line-height: 0px;
     }
 .explore-content p {
     clear: left;
@@ -471,16 +472,10 @@ li:hover {
 
 .header-content {
     margin: -1px;
-    width: 55%;
-    height: 35%; 
+    width: 65%;
+    height: -10%; 
 }
 
-.nav-links {
-    float: left;
-    clear: left;
-    font-size: smaller;
-    line-height: 0;
-}
 .logo {
     width: 30%;
     font-size: 10px;

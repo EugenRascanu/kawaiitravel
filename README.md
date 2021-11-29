@@ -62,7 +62,7 @@ Hovering over the fields will make the colors change.
 # Accessability
 * I confirm that the images, colors and fonts are easy to read and accessible.
 
-![Lighthouse](/assets/images/lighthouse.png)
+![Lighthouse](/assets/images/accessability.png)
 
 # Deployment
 * The project has been deployed to GitHub pages.

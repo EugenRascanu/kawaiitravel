@@ -8,9 +8,7 @@ body {
 	font-family: 'Asap', sans-serif;
 	color: #3a3a3a;
 	font-size: 1.1rem;
-	max-width: 2500px;
-	margin-left: auto;
-}
+	}
 body,
 html {
 	overflow-x: hidden;
@@ -68,7 +66,6 @@ header {
 	display: flex;
 	align-items: flex-end;
 	justify-content: center;
-	max-height: 900px;
 }
 .header-content {
 	margin-bottom: 200px;
@@ -154,7 +151,6 @@ p {
 	background-size: cover;
 	background-repeat: no-repeat;
 	text-align: center;
-	max-height: 900px;
 }
 .explore-content {
 	width: 60%;

@@ -36,7 +36,7 @@
 Hovering over the fields will make the colors change.
 
 
-![Sign Up](/assets/images/signup.png)
+![Sign Up](/assets/images/sign.png)
 
 
 # Testing

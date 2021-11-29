@@ -13,6 +13,7 @@ body{
     color: #3a3a3a;
     font-size: 1.1rem;
     max-width: 2500px;
+    margin-left: auto;
 }
     body, html {
         overflow-x: hidden;
@@ -205,6 +206,7 @@ p {
 .explore-content h2{
     font-size: 3rem;
     text-align: center;
+    justify-content: center;
     
 }
 
@@ -218,6 +220,7 @@ p {
     border-style: solid;
     padding: 10px;
     text-align: center;
+    
 }
 .content-col {
 width: 40%;
